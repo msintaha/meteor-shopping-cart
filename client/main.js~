@@ -1,0 +1,8 @@
+
+Meteor.startup(function () {
+  Products.bootstrap();
+});
+// On Client and Server
+Products = new Meteor.Collection('product');
+// name is the field to search over
+Products.initEasySearch('name');

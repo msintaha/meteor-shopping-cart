@@ -1,0 +1,29 @@
+<template name="product">
+  <div class="ui card">
+  <div class="image">
+   <img src={{this.image}} alt="product image" />
+  </div>
+  <div class="content">
+    <a href={{this.url}} target="_blank" class="header">{{this.name}}</a>
+    <div class="meta">
+      <span class="date">{{this.price}} {{this.currency}}</span>
+    </div>
+    <div class="description">
+     {{this.desc}}
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+     <button class="btn {{#if this.inCart}}btn-danger{{else}}btn-primary{{/if}}">
+          {{#if this.inCart}}
+            Remove
+          {{else}}
+            Add to cart
+          {{/if}}
+        </button>
+    </a>
+  </div>
+</div>
+
+</template>
+

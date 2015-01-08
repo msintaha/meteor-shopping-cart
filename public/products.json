@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Socks",
+    "price": 20.00,
+    "currency": "BDT",
+    "image": "images/01.jpg",
+"desc":"Woolen socks for the winter season",
+    "url": "http://www.amazon.com/gp/product/B008E1W88Y/ref=s9_al_gw_g468_i2/177-7923071-9573920?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-4&pf_rd_r=12JNPHNCS9B4545D7BBZ&pf_rd_t=36701&pf_rd_p=1972952362&pf_rd_i=desktop"
+  },
+  {
+    "name": "Selk'bag",
+    "price": 249.99,
+    "currency": "BDT",
+    "image": "images/02.jpg",
+ "desc":"Very Comfy Self'bag for the winter season",
+    "url": "http://www.amazon.com/gp/product/B0055TRM1G/ref=s9_al_gw_g468_i3/177-7923071-9573920?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-4&pf_rd_r=12JNPHNCS9B4545D7BBZ&pf_rd_t=36701&pf_rd_p=1972952362&pf_rd_i=desktop"
+  },
+  {
+    "name": "Purple Jacket",
+    "price": 100.00,
+    "currency": "BDT",
+    "image": "images/03.jpg",
+   "desc":"Velvet Jacket for women",
+    "url": "http://www.amazon.com/The-North-Face-Osito-Jacket/dp/B00HV4RSLW/ref=sr_1_5?s=sporting-goods&ie=UTF8&qid=1420639463&sr=1-5&keywords=jacket"
+  },
+  {
+    "name": "Microplush Blanket Twin&Queen",
+    "price": 119.99,
+    "currency": "BDT",
+    "image": "images/06.jpg",
+ "desc":"Comfy Blanket for Twin and Queen sized beds",
+    "url": "http://www.amazon.com/dp/B00QQLK58O?psc=1"
+  },
+  {
+    "name": "Pillow 2 Pack, White",
+    "price": 59.00,
+    "currency": "BDT",
+    "image": "images/05.jpg",
+ "desc":"Two pack white pillows",
+    "url": "http://www.amazon.com/Perfect-Fit-Standard-Thread-Count-Sidewall/dp/B002AS9OUC/ref=pd_sim_hg_5?ie=UTF8&refRID=1YJT3S96BW0JGER83F8Q"
+  },
+  {
+    "name": "White Sofa",
+    "price": 249.99,
+    "currency": "BDT",
+    "image": "images/04.jpg",
+ "desc":"Comfy white sofa",
+    "url": "http://www.home24.de/re-concept/sessel-anna-stoff-olivgruen-779539"
+  }
+]

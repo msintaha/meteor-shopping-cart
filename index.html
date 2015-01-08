@@ -1,0 +1,35 @@
+<head>
+  <title>Online Shop</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+    <div class="ui inverted menu">
+  <a class="active red item">
+    <i class="shop icon"></i> Online Shop
+  </a>
+
+</div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3>Products</h3>
+
+        <div id="products-list" class="products-list">
+          {{> productList}}
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <h3>Shopping Cart</h3>
+
+        <div id="cart" class="cart">
+          {{> cart}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>

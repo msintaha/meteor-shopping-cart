@@ -1,0 +1,19 @@
+<template name="product">
+
+  <div class="thumbnail">
+    <img src={{data.image}} alt="product image" />
+    <div class="caption clearfix">
+      <h3><a href={{data.url}} target="_blank">{{data.name}}</a></h3>
+      <div class="product__price">{{data.price}} {{data.currency}}</div>
+      <div class="product__button-wrap">
+        <div class="ui inverted orange button {{#if data.inCart}}btn-danger{{else}}btn-primary{{/if}}">{{#if data.inCart}}
+            Remove
+          {{else}}
+            Add to cart
+          {{/if}}</div>
+      </div>
+    </div>
+  </div>
+
+</template>
+

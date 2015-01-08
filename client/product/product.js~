@@ -1,0 +1,29 @@
+Template.product.events({
+
+  'click button': function(event, template) {
+
+    var id = template.data._id;
+
+    if(products.findOne(id).inCart) {
+      // remove
+      products.update(id, {
+        $set: {inCart: false}
+      });
+
+      Cart.remove(id);
+    }
+    else {
+      // add
+      products.update(id, {
+        $set: {inCart: true}
+      });
+
+      Cart.insert(template.data);
+    }
+
+  }
+
+});
+
+
+

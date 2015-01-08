@@ -1,0 +1,33 @@
+<template name="cart">
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+<div class="ui steps">
+  <div class="active step">
+    <i class="payment icon"></i>
+    <div class="content">
+      <div class="title">Billing</div>
+     
+    </div>
+  </div>
+</div>
+      {{#if items.count}}
+      <ul>
+        {{#each items}}
+        <li class="cart-item">
+          <span class="cart-item__name">{{this.name}}</span>
+          <span class="cart-item__price">{{this.price}} {{this.currency}}</span>
+        </li>
+        {{/each}}
+      </ul>
+      {{else}}
+       <div class="ui inverted red button">Cart is Empty</div>
+      {{/if}}
+      <div class="cart__total">Total: {{cartTotal}} {{cartCurrency}}</div>
+    </div>
+  </div>
+
+
+  
+
+</template>
